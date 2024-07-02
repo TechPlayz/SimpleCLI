@@ -1,0 +1,21 @@
+NOTE: Commands are not case sensitive
+
+1. EXIT/QUIT - Exits the application
+SYNTAX: EXIT (or) QUIT
+
+2. HELP - Displays a list of Commands
+SYNTAX: HELP
+
+3. SAY - Prints a string to the screen
+SYNTAX: SAY <some text>
+EX: SAY hi -> Prints hi to the console
+
+4. COUNT - COUNTS from a one number to another number
+SYNTAX: COUNT <start> <stop>
+EX: COUNT 1 100 -> Counts from 1 to 100
+
+5. ASCII - Makes an ASCII art
+SYNTAX: ASCII <SOME TEXT>
+
+6. CLEAR/CLS - CLEARS THE console
+SYNTAX: CLEAR (or) CLS
