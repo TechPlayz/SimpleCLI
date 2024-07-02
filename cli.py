@@ -45,6 +45,13 @@ while True:
         elif args[0] in ['CLEAR', 'CLS']:
             os.system('cls')
 
+        #7. ADD COMMAND
+        elif args[0] in ['ADD', 'SUM']:
+            addList = []
+            for x in range(1, len(args)):
+                addList.append(float(args[x]))
+            print(sum(addList))
+
         #INVALID
         else:
             print('INVALID COMMAND, Type HELP for a list of commands')
