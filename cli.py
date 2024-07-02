@@ -52,6 +52,14 @@ while True:
                 addList.append(float(args[x]))
             print(sum(addList))
 
+        #8. AVERAGE COMMAND
+        elif args[0] in ['AVG', 'AVERAGE']:
+            avgList = []
+            for x in range(1, len(args)):
+                avgList.append(float(args[x]))
+            print(sum(avgList)/len(avgList))
+
+
         #INVALID
         else:
             print('INVALID COMMAND, Type HELP for a list of commands')
