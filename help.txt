@@ -1,5 +1,6 @@
-NOTE: Commands are not case sensitive
-
+NOTE: -> Commands are not case sensitive
+      -> Invalid arguments in math based commands are ignored
+      
 1. EXIT/QUIT - Exits the application
 SYNTAX: EXIT (or) QUIT
 
@@ -30,3 +31,9 @@ SYNTAX: AVG (or) AVERAGE <Numbers separated by space>
 EX: AVG 1 2 3 
 OUTPUT: 2.0
 
+9. ODDEVEN - Separates odd numbers and even numbers from a sequence
+SYNTAX: ODDEVEN <Numbers separated by space>
+EX: ODDEVEN 1 2 3 4 5 6
+OUTPUT: 
+Even Numbers:  [2, 4, 6]
+Odd Numbers:  [1, 3, 5]

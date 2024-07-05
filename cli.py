@@ -58,6 +58,16 @@ while True:
             for x in range(1, len(args)):
                 avgList.append(float(args[x]))
             print(sum(avgList)/len(avgList))
+        
+        #9 ODD EVEN FILTER (Demonstration of lambda functions)
+        elif args[0] == "ODDEVEN":
+            oeNums = []
+            for i in args[1::]:
+                oeNums.append(int(i))
+            even = list(filter(lambda x: x % 2 == 0, oeNums))
+            odd = list(filter(lambda x: x % 2 != 0, oeNums))
+            print("Even Numbers: ", even)
+            print("Odd Numbers: ", odd)
 
 
         #INVALID
